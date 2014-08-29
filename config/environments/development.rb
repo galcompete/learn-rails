@@ -34,6 +34,7 @@ Rails.application.configure do
 		enable_starttls_auto: true,
 		user_name: ENV["GMAIL_USERNAME"],
 		password: ENV["GMAIL_PASSWORD"]
+  }
   #send email in development mod}
   config.action_mailer.perform_deliveries = true
 
