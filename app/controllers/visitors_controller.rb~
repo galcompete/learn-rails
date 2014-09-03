@@ -1,5 +1,7 @@
 class VisitorsController < ApplicationController
 	def new
-		@onwe = Owner.new
+		@owner = Owner.new
+		flash[:notice] = 'Welcome!'
+		flash[:alert] = 'Another msg'
 	end
 end	
