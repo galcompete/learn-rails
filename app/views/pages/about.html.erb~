@@ -1,0 +1,4 @@
+<% content_for :title fo %>About<% end %>
+<h3>About Foobar Kadigan</h3>
+<p>nolgkjglkjdsljk;ldskaj;lfjasfjaf;fkja;dasfjkticenoticenotic</p>
+<p>Another paragraph</p>
